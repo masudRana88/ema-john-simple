@@ -1,0 +1,15 @@
+nav{
+    background-color: black;
+    text-align: left;
+}
+nav a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px 5px;
+    line-height: 40px;
+    padding: 6px 10px;
+}
+nav a:hover{
+    background-color: tomato;
+}

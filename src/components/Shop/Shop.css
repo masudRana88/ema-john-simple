@@ -1,0 +1,9 @@
+.shop-contsiner{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.products{
+    border-right: 2px solid lightgray;
+    margin-top: 2px;
+    margin-left: 80px;
+}

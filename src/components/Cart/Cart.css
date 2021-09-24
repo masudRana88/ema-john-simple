@@ -1,0 +1,12 @@
+.cart-heading,.total-orderd{
+    text-align: center;
+}
+.total-orderd{
+    font-weight: 500;
+}
+table{
+    margin-left: 20px;
+}
+table td{
+    padding: 0px 10px;
+}

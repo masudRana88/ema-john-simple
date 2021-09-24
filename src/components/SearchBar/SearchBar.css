@@ -1,0 +1,24 @@
+.SearchBar{
+    height: 65px;
+    background-color: gray; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchInpute{
+    width: 70%;
+    height: 22px;
+    border-radius: 1px;
+    border: none;
+    padding: 0 10px;
+    font-size: 14px;
+}
+.card-icon{
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+}
+span{
+    margin-left: 10px;
+    color: tomato;
+}
