@@ -6,7 +6,7 @@ const SearchBar = (props) => {
         <div className="SearchBar">
             <input className="searchInpute" onChange={searchProduct} placeholder="type here to search" type="text" />
             
-            <span>0</span>
+            <span >0</span>
         </div>
     );
 };
