@@ -4,7 +4,6 @@ import './Cart.css'
 const Cart = (props) => {
     const {cart} = props
     const [total, totalQuantity] = cartDetails(cart)
-   
     return (
         <div>
             <h3 className="cart-heading">Order Summary</h3>
@@ -43,6 +42,7 @@ const Cart = (props) => {
                 </tr>
                 </tbody>
             </table>
+            {props.children}
         </div>
     );
 };
