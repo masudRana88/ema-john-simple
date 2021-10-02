@@ -1,16 +1,9 @@
 import React from 'react';
+import cartDetails from '../../Hooks/cartDetails';
 import './Cart.css'
 const Cart = (props) => {
     const {cart} = props
-    let total = 0;
-    let totalQuantity = 0;
-    for(const product of cart){
-        if(!product.quantity){
-            product.quantity = 1;
-        }
-        total = total + (product.price * product.quantity);
-        totalQuantity = totalQuantity + product.quantity;
-    }
+    const [total, totalQuantity] = cartDetails(cart)
    
     return (
         <div>

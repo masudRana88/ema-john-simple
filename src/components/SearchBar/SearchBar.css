@@ -20,5 +20,7 @@
 }
 .SearchBar span{
     margin-left: 10px;
-    color: tomato;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
 }
