@@ -15,7 +15,7 @@ const Shop = () => {
     const [cart, setCart] = useCards(products);
     const [displaySearch, setDinsplaySearch] = useState([]);
     useEffect(()=>{
-        fetch('./products.JSON')
+        fetch('./products.json')
         .then(res => res.json())
         .then(data => setDinsplaySearch(data))
     },[])
