@@ -12,4 +12,5 @@ nav a{
 }
 nav a:hover{
     background-color: tomato;
+    color: white;
 }

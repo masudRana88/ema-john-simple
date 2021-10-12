@@ -14,7 +14,7 @@ const Cart = (props) => {
                     <td>
                         Items :
                     </td>
-                    <td>${total.toFixed(2)}</td>
+                        <td>${total.toFixed(2)}</td>
                 </tr>
                 <tr>
                     <td>

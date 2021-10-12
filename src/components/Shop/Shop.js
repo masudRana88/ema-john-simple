@@ -36,7 +36,7 @@ const Shop = () => {
      }
     return (
         <div>
-          <SearchBar searchProduct={searchProduct}></SearchBar>
+          <SearchBar searchProduct={searchProduct} cart={cart}></SearchBar>
           <div className="shop-contsiner">
             <div className="products">
               {
